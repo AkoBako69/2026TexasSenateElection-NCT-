@@ -1,0 +1,223 @@
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2026TexasSenateElection",
+            "summary": "After decades of Republican dominance, Texas has a Senate race that is actually..competitive?! Democratic state Rep. James Talarico, a former teacher and seminarian, faces Attorney General Ken Paxton, the hard-right nominee who survived a bruising primary runoff against incumbent Sen. John Cornyn. Talarico is betting that cost of living, health care, and a message of decency can build a coalition of suburbanites, young voters, Latinos, and disaffected Republicans, while Paxton is relying on partisan loyalty, border security, and the state’s long Republican streak. With a record-breaking amount of money pouring in and polls showing a tight race, Texas could swing the balance of the Senate..",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUpvWF2tvlWM8CjPW4sgOXzkvOHzaM64tqx6mCwG8yG85ArQ-ttn8LtLs7&s=10",
+            "winning_electoral_vote_number": 5694340,
+            "advisor_url": "https://cdn.abcotvs.com/dip/images/15376509_093024-ktrk-tx-senate-race-gap-sw-img.png",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2026TexasSenateElection"
+    }
+]
+
+campaignTrail_temp.credits = "AkoBako69(JCT)"
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 26763,
+        "fields": {
+            "first_name": "James",
+            "last_name": "Talarico",
+            "election": 20,
+            "party": "Democratic Party",
+            "state": "Texas",
+            "priority": 1,
+            "description": "A former Texas middle school teacher turned state legislator from the Austin suburbs.. James Talarico is a seminary student who talks about politics through faith, family, and “what we owe each other.” He’s built a following well beyond the Democratic base through long-form podcasts and viral clips. Now he’s attempting what no Democrat has done in Texas since 1994: win a statewide race!",
+            "color_hex": "#7070ff",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTubLModWstDqsxHb8Pm-Y_J9xOKuS1v8v_PPl93MFtA&s=10",
+            "electoral_victory_message": "Congratulations, Senator-elect Talarico!\nAgainst the odds, you've done something no Democrat has done since 1988! You beat da reds!! You'll be the youngest Senator there, marking the next generation stepping in to lead these nation!\nFrom a Houston rally to a suburban town hall to a church fellowship hall, you built a coalition few thought possible: teachers and nurses, Valley families, suburban independents, and Republicans who just couldn't vote for that Paxton dude! You will take office in January, and the whole country is watching..I'll be watching my insulin prices!\n",
+            "electoral_loss_message": "You didn't flip the seat..but you changed the map! Republicans spent record sums defending a seat they once treated as safe. Democrats now know a Texas statewide win is within reach. Young as you are, you might even be able to run again! The possibilities are endless! Sleep peacefully tonight, you've inspired the Blues to keep going!",
+            "no_electoral_majority_message": "WTF?? YOU MANAGED TO DRAW THE POPULAR VOTE??",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 27023,
+        "fields": {
+            "first_name": "Ken",
+            "last_name": "Paxton",
+            "election": 20,
+            "party": "Republican Party",
+            "state": "North Dakota",
+            "priority": 1,
+            "description": "(UNPLAYABLE)A fixture of the Texas right for more than two decades, Ken Paxton has been Attorney General since 2015, building a national profile by suing the Biden administration, Big Tech, and a long list of corporations and local governments. Impeached by the Texas House in 2023 and acquitted by the Senate, he is Scandal Man! Somehow he ousted incumbent Sen. John Cornyn in a bruising primary runoff and now faces his first truly competitive general election!",
+            "color_hex": "#ff6b6b",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVECxKf4Ra3xksSkUBt_rGe0tonQe_06lt4w8I0qiBJQ&s",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 27283,
+        "fields": {
+            "first_name": "Democratic",
+            "last_name": "Party",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Andrew Jackson",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "data:image/png;base64,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",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "The Blues!",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50001,
+        "fields": {
+            "first_name": "Republican",
+            "last_name": "Party",
+            "election": 20,
+            "party": "Republican",
+            "state": "Wisconsin",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#ff7070",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Republican_Disc.svg/1280px-Republican_Disc.svg.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=thumbnail",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "The Reds!",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 134663,
+        "fields": {
+            "candidate": 27023,
+            "running_mate": 50001
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 106016,
+        "fields": {
+            "candidate": 26763,
+            "running_mate": 27283
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            26763,
+            27023
+        ]
+    }
+]
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            26763,
+            27023
+        ]
+    }
+]
+
+jet_data = {
+    "headerColor": "#00205b",
+    "windowColor": "#00205b",
+    "containerColor": "#bf0a30",
+    "innerWindowColor": "#ffffff",
+    "bannerImageUrl": "https://images.foxtv.com/static.fox7austin.com/www.fox7austin.com/content/uploads/2026/05/1280/720/paxtontalarico.jpg?ve=1&tl=1",
+    "backgroundImageUrl": "https://i0.wp.com/www.texastribune.org/wp-content/uploads/2026/11/20261103-Talarico-Watch-Party-BD-06-.jpg?fit=1200%2C800&ssl=1",
+    "endingTextColor": "#ffffff",
+    "customQuote": "",
+    "gameTitle": "TEXAS MIDTERMS YEA!!!!"
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>TEXAS MIDTERMS YEA!!!!</h2>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#00205b";
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#00205b";
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+
+$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+
+$(".container")[0].style.backgroundColor = "#bf0a30";
+
+document.getElementById("header").src = "https://images.foxtv.com/static.fox7austin.com/www.fox7austin.com/content/uploads/2026/05/1280/720/paxtontalarico.jpg?ve=1&tl=1";
+
+document.body.background = "https://i0.wp.com/www.texastribune.org/wp-content/uploads/2026/11/20261103-Talarico-Watch-Party-BD-06-.jpg?fit=1200%2C800&ssl=1";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
+
+//#endcode
