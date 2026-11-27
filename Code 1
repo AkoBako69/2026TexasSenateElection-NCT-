@@ -1,3 +1,33 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "2026TexasSenateElection",
+            "summary": "After decades of Republican dominance, Texas has a Senate race that is actually..competitive?! Democratic state Rep. James Talarico, a former teacher and seminarian, faces Attorney General Ken Paxton, the hard-right nominee who survived a bruising primary runoff against incumbent Sen. John Cornyn. Talarico is betting that cost of living, health care, and a message of decency can build a coalition of suburbanites, young voters, Latinos, and disaffected Republicans, while Paxton is relying on partisan loyalty, border security, and the state’s long Republican streak. With a record-breaking amount of money pouring in and polls showing a tight race, Texas could swing the balance of the Senate..",
+            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUpvWF2tvlWM8CjPW4sgOXzkvOHzaM64tqx6mCwG8yG85ArQ-ttn8LtLs7&s=10",
+            "winning_electoral_vote_number": 5694340,
+            "advisor_url": "https://cdn.abcotvs.com/dip/images/15376509_093024-ktrk-tx-senate-race-gap-sw-img.png",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg",
+            "recommended_reading_enabled": false
+        }
+    }
+];
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "2026TexasSenateElection"
+    }
+];
+
+campaignTrail_temp.credits = "AkoBako69(JCT)";
+
 campaignTrail_temp.global_parameter_json = [
     {
         "model": "campaign_trail.global_parameter",
@@ -16,41 +46,12 @@ campaignTrail_temp.global_parameter_json = [
             "issue_stance_6_max": 0.71,
             "global_variance": 0.01,
             "state_variance": 0.005,
-            "question_count": 25,
+            "question_count": 26,
             "default_map_color_hex": "#C9C9C9",
             "no_state_map_color_hex": "#999999"
         }
     }
-]
-
-campaignTrail_temp.election_json = [
-    {
-        "model": "campaign_trail.election",
-        "pk": 20,
-        "fields": {
-            "year": 2016,
-            "display_year": "2026TexasSenateElection",
-            "summary": "After decades of Republican dominance, Texas has a Senate race that is actually..competitive?! Democratic state Rep. James Talarico, a former teacher and seminarian, faces Attorney General Ken Paxton, the hard-right nominee who survived a bruising primary runoff against incumbent Sen. John Cornyn. Talarico is betting that cost of living, health care, and a message of decency can build a coalition of suburbanites, young voters, Latinos, and disaffected Republicans, while Paxton is relying on partisan loyalty, border security, and the state’s long Republican streak. With a record-breaking amount of money pouring in and polls showing a tight race, Texas could swing the balance of the Senate..",
-            "image_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUpvWF2tvlWM8CjPW4sgOXzkvOHzaM64tqx6mCwG8yG85ArQ-ttn8LtLs7&s=10",
-            "winning_electoral_vote_number": 5694340,
-            "advisor_url": "https://cdn.abcotvs.com/dip/images/15376509_093024-ktrk-tx-senate-race-gap-sw-img.png",
-            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
-            "has_visits": 1,
-            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
-        }
-    }
-]
-
-campaignTrail_temp.temp_election_list = [
-    {
-        "id": 20,
-        "year": 2016,
-        "is_premium": 0,
-        "display_year": "2026TexasSenateElection"
-    }
-]
-
-campaignTrail_temp.credits = "AkoBako69(JCT)"
+];
 
 campaignTrail_temp.candidate_json = [
     {
@@ -145,7 +146,7 @@ campaignTrail_temp.candidate_json = [
             "running_mate": true
         }
     }
-]
+];
 
 campaignTrail_temp.running_mate_json = [
     {
@@ -164,7 +165,7 @@ campaignTrail_temp.running_mate_json = [
             "running_mate": 27283
         }
     }
-]
+];
 
 campaignTrail_temp.opponents_default_json = [
     {
@@ -174,7 +175,7 @@ campaignTrail_temp.opponents_default_json = [
             27023
         ]
     }
-]
+];
 
 campaignTrail_temp.opponents_weighted_json = [
     {
@@ -184,40 +185,123 @@ campaignTrail_temp.opponents_weighted_json = [
             27023
         ]
     }
-]
+];
+
+campaignTrail_temp.modBoxTheme = {
+    "header_color": "#0f172a",
+    "header_text_color": "#ffffff",
+    "description_background_color": "#ffffff",
+    "description_text_color": "#111827",
+    "main_color": "#bfe6ff",
+    "secondary_color": "#2563eb",
+    "ui_text_color": "#ffffff"
+};
 
 jet_data = {
     "headerColor": "#00205b",
+    "headerTextColor": "#ffffff",
     "windowColor": "#00205b",
     "containerColor": "#bf0a30",
     "innerWindowColor": "#ffffff",
-    "bannerImageUrl": "https://images.foxtv.com/static.fox7austin.com/www.fox7austin.com/content/uploads/2026/05/1280/720/paxtontalarico.jpg?ve=1&tl=1",
+    "innerWindowTextColor": "#ffffff",
+    "descriptionWindowColor": "#ffffff",
+    "descriptionWindowTextColor": "#000000",
+    "startButtonColor": "#ffffff",
+    "bannerImageUrl": "https://media.discordapp.net/attachments/1297005178121355286/1575763206704467968/1127.png?ex=6b0a7758&is=6b0925d8&hm=a0e6a9d2c22a7e45fe7415a6a52b02761fd9b539ee26476002cb81584262363a&format=webp&quality=lossless&width=1024&height=577",
     "backgroundImageUrl": "https://i0.wp.com/www.texastribune.org/wp-content/uploads/2026/11/20261103-Talarico-Watch-Party-BD-06-.jpg?fit=1200%2C800&ssl=1",
-    "endingTextColor": "#ffffff",
+    "gameTitle": "TEXAS MIDTERMS YEA!!!!",
     "customQuote": "",
-    "gameTitle": "TEXAS MIDTERMS YEA!!!!"
-}
+    "quoteTextColor": "#ffffff",
+    "endingTextColor": "#ffffff",
+    "modBoxTheme": {
+        "header_color": "#0f172a",
+        "header_text_color": "#ffffff",
+        "header_image_url": "",
+        "header_text_shadow": "",
+        "header_font": "",
+        "header_margin": "",
+        "description_background_color": "#ffffff",
+        "description_text_color": "#111827",
+        "main_color": "#bfe6ff",
+        "secondary_color": "#2563eb",
+        "secondary_hover_color": "",
+        "scrollbar_color": "",
+        "scrollbar_width": "",
+        "image_border": "",
+        "election_image_display": "",
+        "ui_text_color": "#ffffff"
+    }
+};
 
 //#startcode
+function applyTheme(theme) {
+    const gameHeader = document.querySelector(".game_header");
+    if (gameHeader && theme.coloring_title) {
+        gameHeader.style.backgroundColor = theme.coloring_title;
+    }
 
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && theme.coloring_window) {
+        gameWindow.style.backgroundColor = theme.coloring_window;
+    }
 
-corrr = '\n              <h2>TEXAS MIDTERMS YEA!!!!</h2>\n            ';
+    const container = document.querySelector(".container");
+    if (container && theme.coloring_container) {
+        container.style.backgroundColor = theme.coloring_container;
+    }
 
+    const headerImg = document.getElementById("header");
+    if (headerImg && theme.header_image) {
+        headerImg.src = theme.header_image;
+    }
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#00205b";
+    if (theme.body_background) {
+        document.body.style.backgroundImage = `url("${theme.body_background}")`;
+        document.body.style.backgroundSize = "cover";
+        document.body.style.backgroundAttachment = "fixed";
+    }
 
-nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#00205b";
+    const style = document.createElement("style");
+    style.textContent = `
+      #results_container { color: #ffffff; }
+      #wittyquote { color: #ffffff; }
+      .game_header h2 { color: #ffffff; }
+      .inner_window_w_desc { background-color: #ffffff !important; color: #ffffff; }
+      .inner_window_front, .person_description_window, .election_description_window, .description_window_small { background-color: #ffffff !important; color: #000000; }
+      .campaign_trail_start_emphasis { background-color: #ffffff !important; }
+    `;
+    document.head.appendChild(style);
+}
 
-document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title;
+corrr = "\n              <h2>TEXAS MIDTERMS YEA!!!!</h2>\n            ";
 
-$("#game_window")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_window;
+const theme = nct_stuff.themes[nct_stuff.selectedTheme];
 
-$(".container")[0].style.backgroundColor = "#bf0a30";
+// define / override theme values
+theme.coloring_title     = "#00205b";
+theme.coloring_window    = "#00205b";
+theme.coloring_container = "#bf0a30";
+theme.header_image = "https://media.discordapp.net/attachments/1297005178121355286/1575763206704467968/1127.png?ex=6b0a7758&is=6b0925d8&hm=a0e6a9d2c22a7e45fe7415a6a52b02761fd9b539ee26476002cb81584262363a&format=webp&quality=lossless&width=1024&height=577";
+theme.body_background = "https://i0.wp.com/www.texastribune.org/wp-content/uploads/2026/11/20261103-Talarico-Watch-Party-BD-06-.jpg?fit=1200%2C800&ssl=1";
 
-document.getElementById("header").src = "https://images.foxtv.com/static.fox7austin.com/www.fox7austin.com/content/uploads/2026/05/1280/720/paxtontalarico.jpg?ve=1&tl=1";
-
-document.body.background = "https://i0.wp.com/www.texastribune.org/wp-content/uploads/2026/11/20261103-Talarico-Watch-Party-BD-06-.jpg?fit=1200%2C800&ssl=1";
-
-document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#ffffff!important;}</style>";
-
+applyTheme(theme);
 //#endcode
+const replaceIntroText = setInterval(() => {
+    const gameWindow = document.getElementById("game_window");
+    if (gameWindow && gameWindow.textContent.includes("Presidential Election")) {
+        const walker = document.createTreeWalker(gameWindow, NodeFilter.SHOW_TEXT);
+        let node;
+        while ((node = walker.nextNode())) {
+            if (node.nodeValue.includes("Do you have what it takes to win a Presidential Election?")) {
+                node.nodeValue = node.nodeValue.replace(
+                    "Do you have what it takes to win a Presidential Election?",
+                    "Do you have what it takes to win a Senate Election?"
+                );
+                clearInterval(replaceIntroText);
+                break;
+            }
+        }
+    }
+}, 50);
+
+
